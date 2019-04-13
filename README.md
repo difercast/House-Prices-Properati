@@ -26,7 +26,7 @@ Actualmente la página web [properati.com](https://www.properati.com.ec/) es una
 
 ### Desarrollar una descripción breve del conjunto de datos que se ha extraído (es necesario que esta descripción tenga sentido con el título elegido).
 
-El conjunto de datos contiene la información capturada desde el sitio web:  [properati.com](https://www.properati.com.ec/). El Dataset contiene la información más relevante de los anuncios de ventas de bienes inmuebles para el Distrito Metropolitano de Quito en Ecuador. El principal objetivo del Dataset es responder preguntas acerca del precio de los inmuebles según el área, número de habitaciones, ubicación, etc. 
+El conjunto de datos contiene la información capturada desde el sitio web:  [properati.com](https://www.properati.com.ec/). El Dataset contiene la información más relevante de los anuncios de ventas de bienes inmuebles para el Distrito Metropolitano de Quito en Ecuador. El principal objetivo del Dataset es responder preguntas acerca del precio de los inmuebles según el área, número de habitaciones, ubicación, etc.
 
 Unos de los inconvenientes del dataset puede ser que presenta los anuncios de solo una página web, para análisis más relevantes se debería utilizar información obtenida desde diferentes sitios web de anuncios de ventas de bienes inmuebles. otro incoveniente es que el dataset no presenta importación más desagregada de los anuncios como por ejemplo el número de baños, si cuenta o no con patio, si está ubicado dentro de un conjunto residencial y si el inmueble  cuenta con servicios básicos.
 
@@ -48,7 +48,7 @@ Los campos contenidos en el dataset son:
 - __Ubicación:__ Dirección del Inmueble.
 - __Fecha de publicación:__ Fecha en la que se publicó el anuncio de venta del inmueble.
 - __Área:__ Área (en metros cuadrados) del inmueble.
-- __Núm. haitaciones:__ Número de habiataciones con las que cuenta el inmueble.
+- __Núm. habitaciones:__ Número de habiataciones con las que cuenta el inmueble.
 
 La recolección de la información se realizó el día 06.04.2018. Estos datos se recogieron mediante técnicas de Web scraping utilizando la librería BeautifulSoup sobre el entorno Jupiter.
 Por motivo de no saturar la página web de peticiones únicamente se capturo el resultado de las primeras 20 páginas de anuncios.
@@ -77,7 +77,8 @@ Calculamos  la media del precio de cada  ubicación especifica.
 __Objetivo 3.__ Se filtrará los resultados para calcular el precio máximo y mínimo en función de la variable número de habitaciones.
 
 
-### Licencia. Seleccione una de estas licencias para su dataset y explique el motivo de su selección.
+### Seleccione una de estas licencias para su dataset y explique el motivo de su selección.
+La licencia seleccionada es __Released Under CC0: Public Domain License__, el motivo de la selección es una licencia de derecho de autor y código abierto, al ser un trabajo práctico hemos pensado que es importante que esta información se pueda estudiar, compartir con la finalidad de que muchas usuarios tengan acceso y se puedan beneficiar.
 
 ### Adjuntar el código con el que se ha generado el dataset, preferiblemente en Python o, alternativamente, en R.
 
