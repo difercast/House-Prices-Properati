@@ -1,16 +1,3 @@
-'''
-Practica 1: Web web_scraping
-Responsables:
- DIEGO CASTILLO CARRION
- CARLOS HERNANDEZ MARTINEZ
-Descripcion:
-Se realiza el ejercicio de web web_scraping sobre la web: properati.com
-en donde se trata de obtener la principal informacion de los anuncions de
-ventas de casas en Quito - Ecuador.
-Fecha de ejecucion:
-06.04.2019
-'''
-
 # Se importan las librerias necesarias
 from urllib.request import urlopen
 from urllib.error import HTTPError
